@@ -1,0 +1,1367 @@
+L 10/30/2019 - 07:03:38: SourceMod error session started
+L 10/30/2019 - 07:03:38: Info (map "c2m1_highway") (file "errors_20191030.log")
+L 10/30/2019 - 07:03:38: [sbpp_sleuth.smx] SourceSleuth: Database connection error: [2013]: Lost connection to MySQL server at 'reading initial communication packet', system error: 113
+L 10/30/2019 - 07:03:38: [sbpp_comms.smx] Connecting to database failed: [2013]: Lost connection to MySQL server at 'reading initial communication packet', system error: 113
+L 10/30/2019 - 07:03:38: [SM] Exception reported: Failed to connect to SourceBans DB, [2013]: Lost connection to MySQL server at 'reading initial communication packet', system error: 113
+L 10/30/2019 - 07:03:38: [SM] Blaming: sbpp_checker.smx
+L 10/30/2019 - 07:03:38: [SM] Call stack trace:
+L 10/30/2019 - 07:03:38: [SM]   [0] SetFailState
+L 10/30/2019 - 07:03:38: [SM]   [1] Line 75, .\sbpp_checker.sp::OnDatabaseConnected
+L 10/30/2019 - 12:57:31: Error log file session closed.
+L 10/30/2019 - 12:57:36: SourceMod error session started
+L 10/30/2019 - 12:57:36: Info (map "c2m1_highway") (file "errors_20191030.log")
+L 10/30/2019 - 12:57:36: [SM] Exception reported: Client 1 is not in game
+L 10/30/2019 - 12:57:36: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 12:57:36: [SM] Call stack trace:
+L 10/30/2019 - 12:57:36: [SM]   [0] GetClientTeam
+L 10/30/2019 - 12:57:36: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 12:57:59: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 12:57:59: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 12:57:59: [SM] Call stack trace:
+L 10/30/2019 - 12:57:59: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 12:57:59: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 12:58:35: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 12:58:35: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 12:58:35: [SM] Call stack trace:
+L 10/30/2019 - 12:58:35: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 12:58:35: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 12:59:34: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 12:59:34: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 12:59:34: [SM] Call stack trace:
+L 10/30/2019 - 12:59:34: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 12:59:34: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 12:59:56: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 12:59:56: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 12:59:56: [SM] Call stack trace:
+L 10/30/2019 - 12:59:56: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 12:59:56: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 12:59:59: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 12:59:59: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 12:59:59: [SM] Call stack trace:
+L 10/30/2019 - 12:59:59: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 12:59:59: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:00:44: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:00:44: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:00:44: [SM] Call stack trace:
+L 10/30/2019 - 13:00:44: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:00:44: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:03:57: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 13:03:57: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 13:03:57: [SM] Call stack trace:
+L 10/30/2019 - 13:03:57: [SM]   [0] SetEntProp
+L 10/30/2019 - 13:03:57: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 13:06:02: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:06:02: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:06:02: [SM] Call stack trace:
+L 10/30/2019 - 13:06:02: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:06:02: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:06:05: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:06:05: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:06:05: [SM] Call stack trace:
+L 10/30/2019 - 13:06:05: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:06:05: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:08:11: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:08:11: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:08:11: [SM] Call stack trace:
+L 10/30/2019 - 13:08:11: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:08:11: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:12:54: Error log file session closed.
+L 10/30/2019 - 13:13:02: SourceMod error session started
+L 10/30/2019 - 13:13:02: Info (map "c2m2_fairgrounds") (file "errors_20191030.log")
+L 10/30/2019 - 13:13:02: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:02: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:02: [SM] Call stack trace:
+L 10/30/2019 - 13:13:02: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:02: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:06: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:06: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:06: [SM] Call stack trace:
+L 10/30/2019 - 13:13:06: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:06: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:08: [SM] Call stack trace:
+L 10/30/2019 - 13:13:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:08: [SM] Call stack trace:
+L 10/30/2019 - 13:13:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:08: [SM] Call stack trace:
+L 10/30/2019 - 13:13:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:09: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:09: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:09: [SM] Call stack trace:
+L 10/30/2019 - 13:13:09: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:09: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:12: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:12: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:12: [SM] Call stack trace:
+L 10/30/2019 - 13:13:12: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:12: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:13:16: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:13:16: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:13:16: [SM] Call stack trace:
+L 10/30/2019 - 13:13:16: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:13:16: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:15:58: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:15:58: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:15:58: [SM] Call stack trace:
+L 10/30/2019 - 13:15:58: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:15:58: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:23:29: [SM] Exception reported: Client index 365 is invalid
+L 10/30/2019 - 13:23:29: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 13:23:29: [SM] Call stack trace:
+L 10/30/2019 - 13:23:29: [SM]   [0] IsClientInGame
+L 10/30/2019 - 13:23:29: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 13:23:29: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 13:23:32: [SM] Exception reported: Client index 365 is invalid
+L 10/30/2019 - 13:23:32: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 13:23:32: [SM] Call stack trace:
+L 10/30/2019 - 13:23:32: [SM]   [0] IsClientInGame
+L 10/30/2019 - 13:23:32: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 13:23:32: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 13:23:40: [SM] Exception reported: Client index 365 is invalid
+L 10/30/2019 - 13:23:40: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 13:23:40: [SM] Call stack trace:
+L 10/30/2019 - 13:23:40: [SM]   [0] IsClientInGame
+L 10/30/2019 - 13:23:40: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 13:23:40: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 13:28:12: [SM] Exception reported: Entity 2 (2) is invalid
+L 10/30/2019 - 13:28:12: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 13:28:12: [SM] Call stack trace:
+L 10/30/2019 - 13:28:12: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 13:28:12: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 13:28:14: Error log file session closed.
+L 10/30/2019 - 13:28:20: SourceMod error session started
+L 10/30/2019 - 13:28:20: Info (map "c2m3_coaster") (file "errors_20191030.log")
+L 10/30/2019 - 13:28:20: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:20: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:20: [SM] Call stack trace:
+L 10/30/2019 - 13:28:20: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:20: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:22: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:22: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:22: [SM] Call stack trace:
+L 10/30/2019 - 13:28:22: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:22: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:23: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:23: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:23: [SM] Call stack trace:
+L 10/30/2019 - 13:28:23: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:23: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:24: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:24: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:24: [SM] Call stack trace:
+L 10/30/2019 - 13:28:24: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:24: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:27: [SM] Call stack trace:
+L 10/30/2019 - 13:28:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:29: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:29: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:29: [SM] Call stack trace:
+L 10/30/2019 - 13:28:29: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:29: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:33: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:33: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:33: [SM] Call stack trace:
+L 10/30/2019 - 13:28:33: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:33: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:28:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:28:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:28:42: [SM] Call stack trace:
+L 10/30/2019 - 13:28:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:28:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:35:40: Error log file session closed.
+L 10/30/2019 - 13:35:53: SourceMod error session started
+L 10/30/2019 - 13:35:53: Info (map "c2m4_barns") (file "errors_20191030.log")
+L 10/30/2019 - 13:35:53: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:35:53: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:35:53: [SM] Call stack trace:
+L 10/30/2019 - 13:35:53: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:35:53: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:35:53: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:35:53: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:35:53: [SM] Call stack trace:
+L 10/30/2019 - 13:35:53: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:35:53: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:35:54: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:35:54: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:35:54: [SM] Call stack trace:
+L 10/30/2019 - 13:35:54: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:35:54: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:35:54: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:35:54: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:35:54: [SM] Call stack trace:
+L 10/30/2019 - 13:35:54: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:35:54: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:35:57: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:35:57: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:35:57: [SM] Call stack trace:
+L 10/30/2019 - 13:35:57: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:35:57: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:35:58: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:35:58: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:35:58: [SM] Call stack trace:
+L 10/30/2019 - 13:35:58: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:35:58: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:36:01: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:36:01: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:36:01: [SM] Call stack trace:
+L 10/30/2019 - 13:36:01: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:36:01: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:36:02: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:36:02: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:36:02: [SM] Call stack trace:
+L 10/30/2019 - 13:36:02: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:36:02: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:38:18: [SM] Exception reported: Client index 469 is invalid
+L 10/30/2019 - 13:38:18: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 13:38:18: [SM] Call stack trace:
+L 10/30/2019 - 13:38:18: [SM]   [0] IsClientInGame
+L 10/30/2019 - 13:38:18: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 13:38:18: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 13:42:25: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 13:42:25: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 13:42:25: [SM] Call stack trace:
+L 10/30/2019 - 13:42:25: [SM]   [0] SetEntProp
+L 10/30/2019 - 13:42:25: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 13:45:35: [SM] Exception reported: Client index 325 is invalid
+L 10/30/2019 - 13:45:35: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 13:45:35: [SM] Call stack trace:
+L 10/30/2019 - 13:45:35: [SM]   [0] IsClientInGame
+L 10/30/2019 - 13:45:35: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 13:45:35: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 13:49:20: Error log file session closed.
+L 10/30/2019 - 13:49:27: SourceMod error session started
+L 10/30/2019 - 13:49:27: Info (map "c2m5_concert") (file "errors_20191030.log")
+L 10/30/2019 - 13:49:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:27: [SM] Call stack trace:
+L 10/30/2019 - 13:49:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:27: [SM] Call stack trace:
+L 10/30/2019 - 13:49:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:27: [SM] Call stack trace:
+L 10/30/2019 - 13:49:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:29: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:29: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:29: [SM] Call stack trace:
+L 10/30/2019 - 13:49:29: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:29: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:30: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:30: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:30: [SM] Call stack trace:
+L 10/30/2019 - 13:49:30: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:30: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:31: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:31: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:31: [SM] Call stack trace:
+L 10/30/2019 - 13:49:31: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:31: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:34: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:34: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:34: [SM] Call stack trace:
+L 10/30/2019 - 13:49:34: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:34: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:49:36: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:49:36: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:49:36: [SM] Call stack trace:
+L 10/30/2019 - 13:49:36: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:49:36: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:51:35: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 13:51:35: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 13:51:35: [SM] Call stack trace:
+L 10/30/2019 - 13:51:35: [SM]   [0] SetEntProp
+L 10/30/2019 - 13:51:35: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 13:54:33: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 13:54:33: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 13:54:33: [SM] Call stack trace:
+L 10/30/2019 - 13:54:33: [SM]   [0] SetEntProp
+L 10/30/2019 - 13:54:33: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 13:54:40: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:54:40: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:54:40: [SM] Call stack trace:
+L 10/30/2019 - 13:54:40: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:54:40: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:54:50: [SM] Exception reported: Entity 4 (4) is invalid
+L 10/30/2019 - 13:54:50: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 13:54:50: [SM] Call stack trace:
+L 10/30/2019 - 13:54:50: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 13:54:50: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 13:54:52: Error log file session closed.
+L 10/30/2019 - 13:55:08: SourceMod error session started
+L 10/30/2019 - 13:55:08: Info (map "c3m1_plankcountry") (file "errors_20191030.log")
+L 10/30/2019 - 13:55:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:08: [SM] Call stack trace:
+L 10/30/2019 - 13:55:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:08: [SM] Call stack trace:
+L 10/30/2019 - 13:55:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:08: [SM] Call stack trace:
+L 10/30/2019 - 13:55:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:10: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:10: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:10: [SM] Call stack trace:
+L 10/30/2019 - 13:55:10: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:10: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:14: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:14: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:14: [SM] Call stack trace:
+L 10/30/2019 - 13:55:14: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:14: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:18: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:18: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:18: [SM] Call stack trace:
+L 10/30/2019 - 13:55:18: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:18: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:18: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:18: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:18: [SM] Call stack trace:
+L 10/30/2019 - 13:55:18: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:18: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 13:55:23: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 13:55:23: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 13:55:23: [SM] Call stack trace:
+L 10/30/2019 - 13:55:23: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 13:55:23: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:19: Error log file session closed.
+L 10/30/2019 - 14:04:32: SourceMod error session started
+L 10/30/2019 - 14:04:32: Info (map "c3m2_swamp") (file "errors_20191030.log")
+L 10/30/2019 - 14:04:32: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:32: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:32: [SM] Call stack trace:
+L 10/30/2019 - 14:04:32: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:32: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:33: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:33: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:33: [SM] Call stack trace:
+L 10/30/2019 - 14:04:33: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:33: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:34: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:34: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:34: [SM] Call stack trace:
+L 10/30/2019 - 14:04:34: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:34: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:35: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:35: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:35: [SM] Call stack trace:
+L 10/30/2019 - 14:04:35: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:35: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:41: [SM] Call stack trace:
+L 10/30/2019 - 14:04:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:41: [SM] Call stack trace:
+L 10/30/2019 - 14:04:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:42: [SM] Call stack trace:
+L 10/30/2019 - 14:04:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:04:48: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:04:48: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:04:48: [SM] Call stack trace:
+L 10/30/2019 - 14:04:48: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:04:48: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:08:14: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:08:14: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:08:14: [SM] Call stack trace:
+L 10/30/2019 - 14:08:14: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:08:14: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:10:02: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:10:02: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:10:02: [SM] Call stack trace:
+L 10/30/2019 - 14:10:02: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:10:02: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:11:19: [SM] Exception reported: Client 3 is not in game
+L 10/30/2019 - 14:11:19: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:11:19: [SM] Call stack trace:
+L 10/30/2019 - 14:11:19: [SM]   [0] GetClientTeam
+L 10/30/2019 - 14:11:19: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 14:11:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:11:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:11:27: [SM] Call stack trace:
+L 10/30/2019 - 14:11:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:11:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:13:13: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:13:13: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:13:13: [SM] Call stack trace:
+L 10/30/2019 - 14:13:13: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:13:13: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:13:19: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:13:19: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:13:19: [SM] Call stack trace:
+L 10/30/2019 - 14:13:19: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:13:19: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:16: Error log file session closed.
+L 10/30/2019 - 14:14:30: SourceMod error session started
+L 10/30/2019 - 14:14:30: Info (map "c3m3_shantytown") (file "errors_20191030.log")
+L 10/30/2019 - 14:14:30: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:30: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:30: [SM] Call stack trace:
+L 10/30/2019 - 14:14:30: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:30: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:30: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:30: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:30: [SM] Call stack trace:
+L 10/30/2019 - 14:14:30: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:30: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:31: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:31: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:31: [SM] Call stack trace:
+L 10/30/2019 - 14:14:31: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:31: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:33: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:33: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:33: [SM] Call stack trace:
+L 10/30/2019 - 14:14:33: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:33: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:35: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:35: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:35: [SM] Call stack trace:
+L 10/30/2019 - 14:14:35: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:35: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:38: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:38: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:38: [SM] Call stack trace:
+L 10/30/2019 - 14:14:38: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:38: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:38: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:38: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:38: [SM] Call stack trace:
+L 10/30/2019 - 14:14:38: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:38: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:14:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:14:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:14:42: [SM] Call stack trace:
+L 10/30/2019 - 14:14:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:14:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:15:31: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:15:31: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:15:31: [SM] Call stack trace:
+L 10/30/2019 - 14:15:31: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:15:31: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:17:59: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 14:17:59: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 14:17:59: [SM] Call stack trace:
+L 10/30/2019 - 14:17:59: [SM]   [0] SetEntProp
+L 10/30/2019 - 14:17:59: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 14:18:12: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:18:12: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:18:12: [SM] Call stack trace:
+L 10/30/2019 - 14:18:12: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:18:12: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:19:26: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:19:26: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:19:26: [SM] Call stack trace:
+L 10/30/2019 - 14:19:26: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:19:26: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:20:24: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:20:24: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:20:24: [SM] Call stack trace:
+L 10/30/2019 - 14:20:24: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:20:24: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:21:30: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:21:30: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:21:30: [SM] Call stack trace:
+L 10/30/2019 - 14:21:30: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:21:30: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:22:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:22:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:22:08: [SM] Call stack trace:
+L 10/30/2019 - 14:22:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:22:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:22:38: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:22:38: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:22:38: [SM] Call stack trace:
+L 10/30/2019 - 14:22:38: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:22:38: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:23: [SM] Exception reported: Entity 1 (1) is invalid
+L 10/30/2019 - 14:24:23: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:24:23: [SM] Call stack trace:
+L 10/30/2019 - 14:24:23: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:24:23: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 14:24:27: Error log file session closed.
+L 10/30/2019 - 14:24:38: SourceMod error session started
+L 10/30/2019 - 14:24:38: Info (map "c7m1_docks") (file "errors_20191030.log")
+L 10/30/2019 - 14:24:38: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:38: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:38: [SM] Call stack trace:
+L 10/30/2019 - 14:24:38: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:38: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:41: [SM] Call stack trace:
+L 10/30/2019 - 14:24:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:42: [SM] Call stack trace:
+L 10/30/2019 - 14:24:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:46: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:46: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:46: [SM] Call stack trace:
+L 10/30/2019 - 14:24:46: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:46: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:49: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:49: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:49: [SM] Call stack trace:
+L 10/30/2019 - 14:24:49: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:49: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:50: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:50: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:50: [SM] Call stack trace:
+L 10/30/2019 - 14:24:50: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:50: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:50: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:50: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:50: [SM] Call stack trace:
+L 10/30/2019 - 14:24:50: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:50: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:24:56: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:24:56: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:24:56: [SM] Call stack trace:
+L 10/30/2019 - 14:24:56: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:24:56: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:26:15: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:26:15: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:26:15: [SM] Call stack trace:
+L 10/30/2019 - 14:26:15: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:26:15: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:27:59: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:27:59: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:27:59: [SM] Call stack trace:
+L 10/30/2019 - 14:27:59: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:27:59: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:28:25: [SM] Exception reported: Entity 5 (5) is invalid
+L 10/30/2019 - 14:28:25: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:28:25: [SM] Call stack trace:
+L 10/30/2019 - 14:28:25: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:28:25: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 14:28:25: [SM] Exception reported: Entity 5 (5) is invalid
+L 10/30/2019 - 14:28:25: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:28:25: [SM] Call stack trace:
+L 10/30/2019 - 14:28:25: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:28:25: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 14:28:26: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:28:26: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:28:26: [SM] Call stack trace:
+L 10/30/2019 - 14:28:26: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:28:26: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:28:29: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:28:29: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:28:29: [SM] Call stack trace:
+L 10/30/2019 - 14:28:29: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:28:29: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:28:49: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:28:49: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:28:49: [SM] Call stack trace:
+L 10/30/2019 - 14:28:49: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:28:49: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:29:18: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:29:18: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:29:18: [SM] Call stack trace:
+L 10/30/2019 - 14:29:18: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:29:18: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:29:36: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:29:36: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:29:36: [SM] Call stack trace:
+L 10/30/2019 - 14:29:36: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:29:36: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:29:54: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:29:54: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:29:54: [SM] Call stack trace:
+L 10/30/2019 - 14:29:54: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:29:54: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:01: [SM] Exception reported: Entity 5 (5) is invalid
+L 10/30/2019 - 14:32:01: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:32:01: [SM] Call stack trace:
+L 10/30/2019 - 14:32:01: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:32:01: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 14:32:04: Error log file session closed.
+L 10/30/2019 - 14:32:17: SourceMod error session started
+L 10/30/2019 - 14:32:17: Info (map "c7m2_barge") (file "errors_20191030.log")
+L 10/30/2019 - 14:32:17: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:17: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:17: [SM] Call stack trace:
+L 10/30/2019 - 14:32:17: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:17: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:17: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:17: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:17: [SM] Call stack trace:
+L 10/30/2019 - 14:32:17: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:17: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:19: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:19: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:19: [SM] Call stack trace:
+L 10/30/2019 - 14:32:19: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:19: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:20: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:20: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:20: [SM] Call stack trace:
+L 10/30/2019 - 14:32:20: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:20: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:21: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:21: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:21: [SM] Call stack trace:
+L 10/30/2019 - 14:32:21: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:21: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:22: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:22: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:22: [SM] Call stack trace:
+L 10/30/2019 - 14:32:22: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:22: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:32:24: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:32:24: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:32:24: [SM] Call stack trace:
+L 10/30/2019 - 14:32:24: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:32:24: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:33:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:33:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:33:27: [SM] Call stack trace:
+L 10/30/2019 - 14:33:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:33:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:34:16: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:34:16: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:34:16: [SM] Call stack trace:
+L 10/30/2019 - 14:34:16: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:34:16: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:36:21: [SM] Exception reported: Client index 298 is invalid
+L 10/30/2019 - 14:36:21: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 14:36:21: [SM] Call stack trace:
+L 10/30/2019 - 14:36:21: [SM]   [0] IsClientInGame
+L 10/30/2019 - 14:36:21: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 14:36:21: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 14:45:56: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:45:56: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:45:56: [SM] Call stack trace:
+L 10/30/2019 - 14:45:56: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:45:56: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:47:31: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:47:31: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:47:31: [SM] Call stack trace:
+L 10/30/2019 - 14:47:31: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:47:31: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:48:10: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:48:10: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:48:10: [SM] Call stack trace:
+L 10/30/2019 - 14:48:10: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:48:10: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:48:31: [SM] Exception reported: Entity 2 (2) is invalid
+L 10/30/2019 - 14:48:31: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:48:31: [SM] Call stack trace:
+L 10/30/2019 - 14:48:31: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:48:31: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 14:48:31: [SM] Exception reported: Entity 2 (2) is invalid
+L 10/30/2019 - 14:48:31: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:48:31: [SM] Call stack trace:
+L 10/30/2019 - 14:48:31: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:48:31: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 14:48:48: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:48:48: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:48:48: [SM] Call stack trace:
+L 10/30/2019 - 14:48:48: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:48:48: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:22: [SM] Exception reported: Entity 4 (4) is invalid
+L 10/30/2019 - 14:49:22: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:49:22: [SM] Call stack trace:
+L 10/30/2019 - 14:49:22: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:49:22: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 14:49:25: Error log file session closed.
+L 10/30/2019 - 14:49:34: SourceMod error session started
+L 10/30/2019 - 14:49:34: Info (map "c7m3_port") (file "errors_20191030.log")
+L 10/30/2019 - 14:49:34: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:34: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:34: [SM] Call stack trace:
+L 10/30/2019 - 14:49:34: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:34: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:36: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:36: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:36: [SM] Call stack trace:
+L 10/30/2019 - 14:49:36: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:36: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:41: [SM] Call stack trace:
+L 10/30/2019 - 14:49:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:42: [SM] Call stack trace:
+L 10/30/2019 - 14:49:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:43: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:43: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:43: [SM] Call stack trace:
+L 10/30/2019 - 14:49:43: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:43: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:45: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:45: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:45: [SM] Call stack trace:
+L 10/30/2019 - 14:49:45: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:45: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:49:58: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:49:58: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:49:58: [SM] Call stack trace:
+L 10/30/2019 - 14:49:58: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:49:58: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:50:53: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:50:53: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:50:53: [SM] Call stack trace:
+L 10/30/2019 - 14:50:53: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:50:53: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:54:52: [SM] Exception reported: Entity 8 (8) is invalid
+L 10/30/2019 - 14:54:52: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:54:52: [SM] Call stack trace:
+L 10/30/2019 - 14:54:52: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:54:52: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 14:55:26: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:55:26: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:55:26: [SM] Call stack trace:
+L 10/30/2019 - 14:55:26: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:55:26: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:55:55: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:55:55: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:55:55: [SM] Call stack trace:
+L 10/30/2019 - 14:55:55: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:55:55: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:57:56: [SM] Exception reported: Entity 3 (3) is invalid
+L 10/30/2019 - 14:57:56: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 14:57:56: [SM] Call stack trace:
+L 10/30/2019 - 14:57:56: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 14:57:56: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 14:57:58: Error log file session closed.
+L 10/30/2019 - 14:58:08: SourceMod error session started
+L 10/30/2019 - 14:58:08: Info (map "c8m1_apartment") (file "errors_20191030.log")
+L 10/30/2019 - 14:58:08: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:08: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:08: [SM] Call stack trace:
+L 10/30/2019 - 14:58:08: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:08: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:09: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:09: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:09: [SM] Call stack trace:
+L 10/30/2019 - 14:58:09: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:09: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:15: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:15: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:15: [SM] Call stack trace:
+L 10/30/2019 - 14:58:15: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:15: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:16: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:16: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:16: [SM] Call stack trace:
+L 10/30/2019 - 14:58:16: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:16: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:19: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:19: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:19: [SM] Call stack trace:
+L 10/30/2019 - 14:58:19: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:19: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:24: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:24: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:24: [SM] Call stack trace:
+L 10/30/2019 - 14:58:24: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:24: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:35: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:35: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:35: [SM] Call stack trace:
+L 10/30/2019 - 14:58:35: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:35: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 14:58:53: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 14:58:53: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 14:58:53: [SM] Call stack trace:
+L 10/30/2019 - 14:58:53: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 14:58:53: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:00:03: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:00:03: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:00:03: [SM] Call stack trace:
+L 10/30/2019 - 15:00:03: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:00:03: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:00:47: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:00:47: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:00:47: [SM] Call stack trace:
+L 10/30/2019 - 15:00:47: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:00:47: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:01:16: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:01:16: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:01:16: [SM] Call stack trace:
+L 10/30/2019 - 15:01:16: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:01:16: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:02:37: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:02:37: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:02:37: [SM] Call stack trace:
+L 10/30/2019 - 15:02:37: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:02:37: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:02:44: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:02:44: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:02:44: [SM] Call stack trace:
+L 10/30/2019 - 15:02:44: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:02:44: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:03:24: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:03:24: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:03:24: [SM] Call stack trace:
+L 10/30/2019 - 15:03:24: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:03:24: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:05:10: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:05:10: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:05:10: [SM] Call stack trace:
+L 10/30/2019 - 15:05:10: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:05:10: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:06:08: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:06:08: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:06:08: [SM] Call stack trace:
+L 10/30/2019 - 15:06:08: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:06:08: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:06:30: [SM] Exception reported: Entity 2 (2) is invalid
+L 10/30/2019 - 15:06:30: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:06:30: [SM] Call stack trace:
+L 10/30/2019 - 15:06:30: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 15:06:30: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 15:06:30: [SM] Exception reported: Entity 3 (3) is invalid
+L 10/30/2019 - 15:06:30: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:06:30: [SM] Call stack trace:
+L 10/30/2019 - 15:06:30: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 15:06:30: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 15:06:32: Error log file session closed.
+L 10/30/2019 - 15:06:41: SourceMod error session started
+L 10/30/2019 - 15:06:41: Info (map "c8m2_subway") (file "errors_20191030.log")
+L 10/30/2019 - 15:06:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:41: [SM] Call stack trace:
+L 10/30/2019 - 15:06:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:42: [SM] Call stack trace:
+L 10/30/2019 - 15:06:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:44: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:44: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:44: [SM] Call stack trace:
+L 10/30/2019 - 15:06:44: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:44: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:45: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:45: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:45: [SM] Call stack trace:
+L 10/30/2019 - 15:06:45: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:45: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:46: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:46: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:46: [SM] Call stack trace:
+L 10/30/2019 - 15:06:46: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:46: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:46: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:46: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:46: [SM] Call stack trace:
+L 10/30/2019 - 15:06:46: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:46: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:47: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:47: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:47: [SM] Call stack trace:
+L 10/30/2019 - 15:06:47: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:47: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:06:51: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:06:51: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:06:51: [SM] Call stack trace:
+L 10/30/2019 - 15:06:51: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:06:51: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:08:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:08:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:08:41: [SM] Call stack trace:
+L 10/30/2019 - 15:08:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:08:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:09:48: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:09:48: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:09:48: [SM] Call stack trace:
+L 10/30/2019 - 15:09:48: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:09:48: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:10:35: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:10:35: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:10:35: [SM] Call stack trace:
+L 10/30/2019 - 15:10:35: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:10:35: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:12:15: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:12:15: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:12:15: [SM] Call stack trace:
+L 10/30/2019 - 15:12:15: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:12:15: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:13:09: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:13:09: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:13:09: [SM] Call stack trace:
+L 10/30/2019 - 15:13:09: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:13:09: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:14:43: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:14:43: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:14:43: [SM] Call stack trace:
+L 10/30/2019 - 15:14:43: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:14:43: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:14:43: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:14:43: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:14:43: [SM] Call stack trace:
+L 10/30/2019 - 15:14:43: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:14:43: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:15:25: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:15:25: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:15:25: [SM] Call stack trace:
+L 10/30/2019 - 15:15:25: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:15:25: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:21: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:21: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:21: [SM] Call stack trace:
+L 10/30/2019 - 15:16:21: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:21: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:26: [SM] Exception reported: Entity 1 (1) is invalid
+L 10/30/2019 - 15:16:26: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:16:26: [SM] Call stack trace:
+L 10/30/2019 - 15:16:26: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 15:16:26: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 15:16:28: Error log file session closed.
+L 10/30/2019 - 15:16:34: SourceMod error session started
+L 10/30/2019 - 15:16:34: Info (map "c8m3_sewers") (file "errors_20191030.log")
+L 10/30/2019 - 15:16:34: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:34: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:34: [SM] Call stack trace:
+L 10/30/2019 - 15:16:34: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:34: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:38: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:38: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:38: [SM] Call stack trace:
+L 10/30/2019 - 15:16:38: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:38: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:38: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:38: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:38: [SM] Call stack trace:
+L 10/30/2019 - 15:16:38: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:38: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:41: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:41: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:41: [SM] Call stack trace:
+L 10/30/2019 - 15:16:41: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:41: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:44: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:44: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:44: [SM] Call stack trace:
+L 10/30/2019 - 15:16:44: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:44: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:44: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:44: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:44: [SM] Call stack trace:
+L 10/30/2019 - 15:16:44: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:44: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:49: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:49: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:49: [SM] Call stack trace:
+L 10/30/2019 - 15:16:49: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:49: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:16:55: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:16:55: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:16:55: [SM] Call stack trace:
+L 10/30/2019 - 15:16:55: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:16:55: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:21:27: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:21:27: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:21:27: [SM] Call stack trace:
+L 10/30/2019 - 15:21:27: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:21:27: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:24:37: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:24:37: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:24:37: [SM] Call stack trace:
+L 10/30/2019 - 15:24:37: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:24:37: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:24:46: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:24:46: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:24:46: [SM] Call stack trace:
+L 10/30/2019 - 15:24:46: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:24:46: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:25:29: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:25:29: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:25:29: [SM] Call stack trace:
+L 10/30/2019 - 15:25:29: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:25:29: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:25:46: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:25:46: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:25:46: [SM] Call stack trace:
+L 10/30/2019 - 15:25:46: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:25:46: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:27:05: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:27:05: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:27:05: [SM] Call stack trace:
+L 10/30/2019 - 15:27:05: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:27:05: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:30:27: [SM] Exception reported: Entity 7 (7) is invalid
+L 10/30/2019 - 15:30:27: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:30:27: [SM] Call stack trace:
+L 10/30/2019 - 15:30:27: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 15:30:27: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 15:30:40: Error log file session closed.
+L 10/30/2019 - 15:30:48: SourceMod error session started
+L 10/30/2019 - 15:30:48: Info (map "c8m4_interior") (file "errors_20191030.log")
+L 10/30/2019 - 15:30:48: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:30:48: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:30:48: [SM] Call stack trace:
+L 10/30/2019 - 15:30:48: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:30:48: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:30:50: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:30:50: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:30:50: [SM] Call stack trace:
+L 10/30/2019 - 15:30:50: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:30:50: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:30:50: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:30:50: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:30:50: [SM] Call stack trace:
+L 10/30/2019 - 15:30:50: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:30:50: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:30:50: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:30:50: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:30:50: [SM] Call stack trace:
+L 10/30/2019 - 15:30:50: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:30:50: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:30:54: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:30:54: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:30:54: [SM] Call stack trace:
+L 10/30/2019 - 15:30:54: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:30:54: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:31:00: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:31:00: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:31:00: [SM] Call stack trace:
+L 10/30/2019 - 15:31:00: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:31:00: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:31:58: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:31:58: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:31:58: [SM] Call stack trace:
+L 10/30/2019 - 15:31:58: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:31:58: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:33:15: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:33:15: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:33:15: [SM] Call stack trace:
+L 10/30/2019 - 15:33:15: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:33:15: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:35:54: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:35:54: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:35:54: [SM] Call stack trace:
+L 10/30/2019 - 15:35:54: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:35:54: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:36:18: [SM] Exception reported: Entity 6 (6) is invalid
+L 10/30/2019 - 15:36:18: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:36:18: [SM] Call stack trace:
+L 10/30/2019 - 15:36:18: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 15:36:18: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 15:36:50: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:36:50: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:36:50: [SM] Call stack trace:
+L 10/30/2019 - 15:36:50: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:36:50: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:38:07: [SM] Exception reported: Client 6 is not in game
+L 10/30/2019 - 15:38:07: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:38:07: [SM] Call stack trace:
+L 10/30/2019 - 15:38:07: [SM]   [0] GetClientTeam
+L 10/30/2019 - 15:38:07: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 15:40:17: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:40:17: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:40:17: [SM] Call stack trace:
+L 10/30/2019 - 15:40:17: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:40:17: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:40:43: [SM] Exception reported: Entity 10 (10) is invalid
+L 10/30/2019 - 15:40:43: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 15:40:43: [SM] Call stack trace:
+L 10/30/2019 - 15:40:43: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 15:40:43: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 15:40:44: Error log file session closed.
+L 10/30/2019 - 15:40:51: SourceMod error session started
+L 10/30/2019 - 15:40:51: Info (map "c8m5_rooftop") (file "errors_20191030.log")
+L 10/30/2019 - 15:40:51: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:40:51: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:40:51: [SM] Call stack trace:
+L 10/30/2019 - 15:40:51: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:40:51: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:40:51: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:40:51: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:40:51: [SM] Call stack trace:
+L 10/30/2019 - 15:40:51: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:40:51: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:40:51: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:40:51: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:40:51: [SM] Call stack trace:
+L 10/30/2019 - 15:40:51: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:40:51: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:40:53: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:40:53: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:40:53: [SM] Call stack trace:
+L 10/30/2019 - 15:40:53: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:40:53: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:40:59: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:40:59: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:40:59: [SM] Call stack trace:
+L 10/30/2019 - 15:40:59: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:40:59: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:41:00: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:41:00: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:41:00: [SM] Call stack trace:
+L 10/30/2019 - 15:41:00: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:41:00: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:41:13: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:41:13: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:41:13: [SM] Call stack trace:
+L 10/30/2019 - 15:41:13: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:41:13: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:42:10: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:42:10: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:42:10: [SM] Call stack trace:
+L 10/30/2019 - 15:42:10: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:42:10: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:42:20: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:42:20: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:42:20: [SM] Call stack trace:
+L 10/30/2019 - 15:42:20: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:42:20: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:42:55: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:42:55: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:42:55: [SM] Call stack trace:
+L 10/30/2019 - 15:42:55: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:42:55: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:48:00: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:48:00: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:48:00: [SM] Call stack trace:
+L 10/30/2019 - 15:48:00: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:48:00: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:51:37: [SM] Exception reported: Client index 319 is invalid
+L 10/30/2019 - 15:51:37: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 15:51:37: [SM] Call stack trace:
+L 10/30/2019 - 15:51:37: [SM]   [0] IsClientInGame
+L 10/30/2019 - 15:51:37: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 15:51:37: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 15:51:38: [SM] Exception reported: Client index 319 is invalid
+L 10/30/2019 - 15:51:38: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 15:51:38: [SM] Call stack trace:
+L 10/30/2019 - 15:51:38: [SM]   [0] IsClientInGame
+L 10/30/2019 - 15:51:38: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 15:51:38: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 15:52:31: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:52:31: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:52:31: [SM] Call stack trace:
+L 10/30/2019 - 15:52:31: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:52:31: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:53:07: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:53:07: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:53:07: [SM] Call stack trace:
+L 10/30/2019 - 15:53:07: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:53:07: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 15:53:08: [SM] Exception reported: Entity -1 (-1) is invalid
+L 10/30/2019 - 15:53:08: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 10/30/2019 - 15:53:08: [SM] Call stack trace:
+L 10/30/2019 - 15:53:08: [SM]   [0] SetEntProp
+L 10/30/2019 - 15:53:08: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 10/30/2019 - 15:54:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 15:54:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 15:54:42: [SM] Call stack trace:
+L 10/30/2019 - 15:54:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 15:54:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:02:48: [SM] Exception reported: Entity 4 (4) is invalid
+L 10/30/2019 - 16:02:48: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:02:48: [SM] Call stack trace:
+L 10/30/2019 - 16:02:48: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 16:02:48: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 16:02:51: Error log file session closed.
+L 10/30/2019 - 16:03:07: SourceMod error session started
+L 10/30/2019 - 16:03:07: Info (map "c1m1_hotel") (file "errors_20191030.log")
+L 10/30/2019 - 16:03:07: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:03:07: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:03:07: [SM] Call stack trace:
+L 10/30/2019 - 16:03:07: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:03:07: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:03:10: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:03:10: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:03:10: [SM] Call stack trace:
+L 10/30/2019 - 16:03:10: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:03:10: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:03:11: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:03:11: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:03:11: [SM] Call stack trace:
+L 10/30/2019 - 16:03:11: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:03:11: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:03:14: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:03:14: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:03:14: [SM] Call stack trace:
+L 10/30/2019 - 16:03:14: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:03:14: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:03:34: [SM] Exception reported: Client 5 is not in game
+L 10/30/2019 - 16:03:34: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:03:34: [SM] Call stack trace:
+L 10/30/2019 - 16:03:34: [SM]   [0] GetClientTeam
+L 10/30/2019 - 16:03:34: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 16:05:26: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:05:26: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:05:26: [SM] Call stack trace:
+L 10/30/2019 - 16:05:26: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:05:26: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:05:44: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:05:44: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:05:44: [SM] Call stack trace:
+L 10/30/2019 - 16:05:44: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:05:44: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:06:45: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:06:45: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:06:45: [SM] Call stack trace:
+L 10/30/2019 - 16:06:45: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:06:45: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:07:40: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:07:40: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:07:40: [SM] Call stack trace:
+L 10/30/2019 - 16:07:40: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:07:40: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:07:45: [SM] Exception reported: Entity 6 (6) is invalid
+L 10/30/2019 - 16:07:45: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:07:45: [SM] Call stack trace:
+L 10/30/2019 - 16:07:45: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 16:07:45: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 16:08:45: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:08:45: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:08:45: [SM] Call stack trace:
+L 10/30/2019 - 16:08:45: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:08:45: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:09:33: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:09:33: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:09:33: [SM] Call stack trace:
+L 10/30/2019 - 16:09:33: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:09:33: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:10:18: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:10:18: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:10:18: [SM] Call stack trace:
+L 10/30/2019 - 16:10:18: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:10:18: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:10:46: [SM] Exception reported: Client index 45 is invalid
+L 10/30/2019 - 16:10:46: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 10/30/2019 - 16:10:46: [SM] Call stack trace:
+L 10/30/2019 - 16:10:46: [SM]   [0] IsClientInGame
+L 10/30/2019 - 16:10:46: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 10/30/2019 - 16:10:46: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 10/30/2019 - 16:10:57: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:10:57: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:10:57: [SM] Call stack trace:
+L 10/30/2019 - 16:10:57: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:10:57: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:13:21: [SM] Exception reported: Client 2 is not in game
+L 10/30/2019 - 16:13:21: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:13:21: [SM] Call stack trace:
+L 10/30/2019 - 16:13:21: [SM]   [0] GetClientTeam
+L 10/30/2019 - 16:13:21: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 16:13:21: [SM] Exception reported: Entity 4 (4) is invalid
+L 10/30/2019 - 16:13:21: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:13:21: [SM] Call stack trace:
+L 10/30/2019 - 16:13:21: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 16:13:21: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 16:13:23: Error log file session closed.
+L 10/30/2019 - 16:13:40: SourceMod error session started
+L 10/30/2019 - 16:13:40: Info (map "c1m2_streets") (file "errors_20191030.log")
+L 10/30/2019 - 16:13:40: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:13:40: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:13:40: [SM] Call stack trace:
+L 10/30/2019 - 16:13:40: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:13:40: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:13:43: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:13:43: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:13:43: [SM] Call stack trace:
+L 10/30/2019 - 16:13:43: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:13:43: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:13:45: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:13:45: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:13:45: [SM] Call stack trace:
+L 10/30/2019 - 16:13:45: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:13:45: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:13:47: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:13:47: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:13:47: [SM] Call stack trace:
+L 10/30/2019 - 16:13:47: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:13:47: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:13:51: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:13:51: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:13:51: [SM] Call stack trace:
+L 10/30/2019 - 16:13:51: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:13:51: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:13:58: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:13:58: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:13:58: [SM] Call stack trace:
+L 10/30/2019 - 16:13:58: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:13:58: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:14:29: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:14:29: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:14:29: [SM] Call stack trace:
+L 10/30/2019 - 16:14:29: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:14:29: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:14:57: [SM] Exception reported: Entity 11 (11) is invalid
+L 10/30/2019 - 16:14:57: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:14:57: [SM] Call stack trace:
+L 10/30/2019 - 16:14:57: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 16:14:57: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 16:14:57: [SM] Exception reported: Entity 11 (11) is invalid
+L 10/30/2019 - 16:14:57: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:14:57: [SM] Call stack trace:
+L 10/30/2019 - 16:14:57: [SM]   [0] GetEntDataEnt2
+L 10/30/2019 - 16:14:57: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 10/30/2019 - 16:15:07: [SM] Exception reported: Client 2 is not in game
+L 10/30/2019 - 16:15:07: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/30/2019 - 16:15:07: [SM] Call stack trace:
+L 10/30/2019 - 16:15:07: [SM]   [0] GetClientTeam
+L 10/30/2019 - 16:15:07: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/30/2019 - 16:26:54: Error log file session closed.
+L 10/30/2019 - 16:27:17: SourceMod error session started
+L 10/30/2019 - 16:27:17: Info (map "c1m3_mall") (file "errors_20191030.log")
+L 10/30/2019 - 16:27:17: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:27:17: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:27:17: [SM] Call stack trace:
+L 10/30/2019 - 16:27:17: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:27:17: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:27:45: Error log file session closed.
+L 10/30/2019 - 16:28:04: SourceMod error session started
+L 10/30/2019 - 16:28:04: Info (map "c11m1_greenhouse") (file "errors_20191030.log")
+L 10/30/2019 - 16:28:04: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:28:04: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:28:04: [SM] Call stack trace:
+L 10/30/2019 - 16:28:04: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:28:04: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 16:33:24: Error log file session closed.
+L 10/30/2019 - 16:33:42: SourceMod error session started
+L 10/30/2019 - 16:33:42: Info (map "c11m2_offices") (file "errors_20191030.log")
+L 10/30/2019 - 16:33:42: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 16:33:42: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 16:33:42: [SM] Call stack trace:
+L 10/30/2019 - 16:33:42: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 16:33:42: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 17:50:25: Error log file session closed.
+L 10/30/2019 - 17:50:43: SourceMod error session started
+L 10/30/2019 - 17:50:43: Info (map "c11m3_garage") (file "errors_20191030.log")
+L 10/30/2019 - 17:50:43: [SM] Exception reported: Invalid database Handle 0 (error: 4)
+L 10/30/2019 - 17:50:43: [SM] Blaming: sbpp_sleuth.smx
+L 10/30/2019 - 17:50:43: [SM] Call stack trace:
+L 10/30/2019 - 17:50:43: [SM]   [0] SQL_TQuery
+L 10/30/2019 - 17:50:43: [SM]   [1] Line 170, D:\MegaSync\Projects\Sourcemod\scripting\sbpp_sleuth.sp::OnClientPostAdminCheck
+L 10/30/2019 - 17:56:37: SourceMod error session started
+L 10/30/2019 - 17:56:37: Info (map "c2m1_highway") (file "errors_20191030.log")
+L 10/30/2019 - 17:56:37: [CRASH] Accelerator uploaded crash dump: Crash ID: PDUV-IIDY-ITSZ

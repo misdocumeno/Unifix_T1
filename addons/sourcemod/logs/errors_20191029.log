@@ -1,0 +1,8 @@
+L 10/29/2019 - 05:31:32: SourceMod error session started
+L 10/29/2019 - 05:31:32: Info (map "c2m1_highway") (file "errors_20191029.log")
+L 10/29/2019 - 05:31:32: [SM] Exception reported: Entity 1 (1) is invalid
+L 10/29/2019 - 05:31:32: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 10/29/2019 - 05:31:32: [SM] Call stack trace:
+L 10/29/2019 - 05:31:32: [SM]   [0] GetEntDataEnt2
+L 10/29/2019 - 05:31:32: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 10/29/2019 - 05:31:33: Error log file session closed.

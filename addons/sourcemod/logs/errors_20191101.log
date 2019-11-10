@@ -1,0 +1,216 @@
+L 11/01/2019 - 01:13:08: SourceMod error session started
+L 11/01/2019 - 01:13:08: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 01:13:08: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 01:13:08: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 01:13:08: [SM] Call stack trace:
+L 11/01/2019 - 01:13:08: [SM]   [0] SetEntProp
+L 11/01/2019 - 01:13:08: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 01:13:41: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 01:13:41: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 01:13:41: [SM] Call stack trace:
+L 11/01/2019 - 01:13:41: [SM]   [0] SetEntProp
+L 11/01/2019 - 01:13:41: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 01:21:58: [SM] Exception reported: Entity 7 (7) is invalid
+L 11/01/2019 - 01:21:58: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 01:21:58: [SM] Call stack trace:
+L 11/01/2019 - 01:21:58: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 01:21:58: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 01:21:58: [SM] Exception reported: Entity 7 (7) is invalid
+L 11/01/2019 - 01:21:58: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 01:21:58: [SM] Call stack trace:
+L 11/01/2019 - 01:21:58: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 01:21:58: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 11/01/2019 - 01:31:20: Error log file session closed.
+L 11/01/2019 - 01:43:22: SourceMod error session started
+L 11/01/2019 - 01:43:22: Info (map "c2m2_fairgrounds") (file "errors_20191101.log")
+L 11/01/2019 - 01:43:22: [SM] Exception reported: Entity 1 (1) is invalid
+L 11/01/2019 - 01:43:22: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 01:43:22: [SM] Call stack trace:
+L 11/01/2019 - 01:43:22: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 01:43:22: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 01:43:22: [SM] Exception reported: Entity 5 (5) is invalid
+L 11/01/2019 - 01:43:22: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 01:43:22: [SM] Call stack trace:
+L 11/01/2019 - 01:43:22: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 01:43:22: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 01:43:22: Error log file session closed.
+L 11/01/2019 - 01:47:47: SourceMod error session started
+L 11/01/2019 - 01:47:47: Info (map "c2m3_coaster") (file "errors_20191101.log")
+L 11/01/2019 - 01:47:47: [SM] Exception reported: Entity 5 (5) is invalid
+L 11/01/2019 - 01:47:47: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 01:47:47: [SM] Call stack trace:
+L 11/01/2019 - 01:47:47: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 01:47:47: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 11/01/2019 - 01:51:37: [SM] Exception reported: Invalid edict (-1 - -1)
+L 11/01/2019 - 01:51:37: [SM] Blaming: l4d2_jockey_skeet.smx
+L 11/01/2019 - 01:51:37: [SM] Call stack trace:
+L 11/01/2019 - 01:51:37: [SM]   [0] GetEdictClassname
+L 11/01/2019 - 01:51:37: [SM]   [1] Line 141, plugin/EUplugins/march/l4d2_jockey_skeet.sp::IsShotgun
+L 11/01/2019 - 01:51:37: [SM]   [2] Line 73, plugin/EUplugins/march/l4d2_jockey_skeet.sp::OnTakeDamage
+L 11/01/2019 - 01:53:08: Error log file session closed.
+L 11/01/2019 - 02:01:11: SourceMod error session started
+L 11/01/2019 - 02:01:11: Info (map "c2m4_barns") (file "errors_20191101.log")
+L 11/01/2019 - 02:01:11: [SM] Exception reported: Client 5 is not in game
+L 11/01/2019 - 02:01:11: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 02:01:11: [SM] Call stack trace:
+L 11/01/2019 - 02:01:11: [SM]   [0] GetClientTeam
+L 11/01/2019 - 02:01:11: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 02:01:28: Error log file session closed.
+L 11/01/2019 - 02:09:09: SourceMod error session started
+L 11/01/2019 - 02:09:09: Info (map "c2m5_concert") (file "errors_20191101.log")
+L 11/01/2019 - 02:09:09: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 02:09:09: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 02:09:09: [SM] Call stack trace:
+L 11/01/2019 - 02:09:09: [SM]   [0] SetEntProp
+L 11/01/2019 - 02:09:09: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 02:10:54: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 02:10:54: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 02:10:54: [SM] Call stack trace:
+L 11/01/2019 - 02:10:54: [SM]   [0] SetEntProp
+L 11/01/2019 - 02:10:54: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 02:18:43: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 02:18:43: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 02:18:43: [SM] Call stack trace:
+L 11/01/2019 - 02:18:43: [SM]   [0] SetEntProp
+L 11/01/2019 - 02:18:43: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 02:19:29: [SM] Exception reported: Entity 6 (6) is invalid
+L 11/01/2019 - 02:19:29: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 02:19:29: [SM] Call stack trace:
+L 11/01/2019 - 02:19:29: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 02:19:29: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 02:19:30: Error log file session closed.
+L 11/01/2019 - 02:20:28: SourceMod error session started
+L 11/01/2019 - 02:20:28: Info (map "c1m1_hotel") (file "errors_20191101.log")
+L 11/01/2019 - 02:20:28: [SM] Exception reported: Client 3 is not in game
+L 11/01/2019 - 02:20:28: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 02:20:28: [SM] Call stack trace:
+L 11/01/2019 - 02:20:28: [SM]   [0] GetClientTeam
+L 11/01/2019 - 02:20:28: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 02:20:28: [SM] Exception reported: Client 4 is not in game
+L 11/01/2019 - 02:20:28: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 02:20:28: [SM] Call stack trace:
+L 11/01/2019 - 02:20:28: [SM]   [0] GetClientTeam
+L 11/01/2019 - 02:20:28: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 02:20:29: Error log file session closed.
+L 11/01/2019 - 02:27:39: SourceMod error session started
+L 11/01/2019 - 02:27:39: Info (map "c1m1_hotel") (file "errors_20191101.log")
+L 11/01/2019 - 02:27:39: [SM] Exception reported: Entity 7 (7) is invalid
+L 11/01/2019 - 02:27:39: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 02:27:39: [SM] Call stack trace:
+L 11/01/2019 - 02:27:39: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 02:27:39: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 02:27:39: Error log file session closed.
+L 11/01/2019 - 02:30:19: SourceMod error session started
+L 11/01/2019 - 02:30:19: Info (map "c1m2_streets") (file "errors_20191101.log")
+L 11/01/2019 - 02:30:19: [SM] Exception reported: Client index 126 is invalid
+L 11/01/2019 - 02:30:19: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 11/01/2019 - 02:30:19: [SM] Call stack trace:
+L 11/01/2019 - 02:30:19: [SM]   [0] IsClientInGame
+L 11/01/2019 - 02:30:19: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 11/01/2019 - 02:30:19: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 11/01/2019 - 02:39:13: [SM] Exception reported: Client index 547 is invalid
+L 11/01/2019 - 02:39:13: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 11/01/2019 - 02:39:13: [SM] Call stack trace:
+L 11/01/2019 - 02:39:13: [SM]   [0] IsClientInGame
+L 11/01/2019 - 02:39:13: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 11/01/2019 - 02:39:13: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 11/01/2019 - 02:40:40: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 02:40:40: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 02:40:40: [SM] Call stack trace:
+L 11/01/2019 - 02:40:40: [SM]   [0] SetEntProp
+L 11/01/2019 - 02:40:40: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 02:41:47: Error log file session closed.
+L 11/01/2019 - 02:47:48: SourceMod error session started
+L 11/01/2019 - 02:47:48: Info (map "c1m3_mall") (file "errors_20191101.log")
+L 11/01/2019 - 02:47:48: [SM] Exception reported: Client index 125 is invalid
+L 11/01/2019 - 02:47:48: [SM] Blaming: l4d2_getup_slide_fix.smx
+L 11/01/2019 - 02:47:48: [SM] Call stack trace:
+L 11/01/2019 - 02:47:48: [SM]   [0] IsClientInGame
+L 11/01/2019 - 02:47:48: [SM]   [1] Line 39, C:\Users\Sir\Documents\THE MAP\New Scripting\include\l4d2util_infected.inc::IsInfected
+L 11/01/2019 - 02:47:48: [SM]   [2] Line 135, C:\Users\Sir\Documents\THE MAP\New Scripting\l4d2_getup_slide_fix.sp::L4D2_OnStagger
+L 11/01/2019 - 02:50:23: SourceMod error session started
+L 11/01/2019 - 02:50:23: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 02:50:23: [CRASH] Accelerator uploaded crash dump: Crash ID: JMYH-BPZW-WY4M
+L 11/01/2019 - 13:01:40: Error log file session closed.
+L 11/01/2019 - 13:08:03: SourceMod error session started
+L 11/01/2019 - 13:08:03: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 13:08:03: [CRASH] Accelerator uploaded crash dump: Crash ID: AC7Y-OR3J-5JIH
+L 11/01/2019 - 13:11:40: Error log file session closed.
+L 11/01/2019 - 13:21:25: SourceMod error session started
+L 11/01/2019 - 13:21:25: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 13:21:25: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 13:21:25: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 13:21:25: [SM] Call stack trace:
+L 11/01/2019 - 13:21:25: [SM]   [0] SetEntProp
+L 11/01/2019 - 13:21:25: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 13:23:32: [SM] Exception reported: Entity 4 (4) is invalid
+L 11/01/2019 - 13:23:32: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 13:23:32: [SM] Call stack trace:
+L 11/01/2019 - 13:23:32: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 13:23:32: [SM]   [1] Line 115, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::Event_PlayerTeam
+L 11/01/2019 - 13:26:36: Error log file session closed.
+L 11/01/2019 - 13:37:56: SourceMod error session started
+L 11/01/2019 - 13:37:56: Info (map "c2m2_fairgrounds") (file "errors_20191101.log")
+L 11/01/2019 - 13:37:56: [SM] Exception reported: Entity 1 (1) is invalid
+L 11/01/2019 - 13:37:56: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 13:37:56: [SM] Call stack trace:
+L 11/01/2019 - 13:37:56: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 13:37:56: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 13:37:56: Error log file session closed.
+L 11/01/2019 - 13:39:57: SourceMod error session started
+L 11/01/2019 - 13:39:57: Info (map "c2m3_coaster") (file "errors_20191101.log")
+L 11/01/2019 - 13:39:57: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 13:39:57: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 13:39:57: [SM] Call stack trace:
+L 11/01/2019 - 13:39:57: [SM]   [0] SetEntProp
+L 11/01/2019 - 13:39:57: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 13:44:03: Error log file session closed.
+L 11/01/2019 - 13:49:32: SourceMod error session started
+L 11/01/2019 - 13:49:32: Info (map "c2m4_barns") (file "errors_20191101.log")
+L 11/01/2019 - 13:49:32: [SM] Exception reported: Client 10 is not in game
+L 11/01/2019 - 13:49:32: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 13:49:32: [SM] Call stack trace:
+L 11/01/2019 - 13:49:32: [SM]   [0] GetClientTeam
+L 11/01/2019 - 13:49:32: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 13:50:46: SourceMod error session started
+L 11/01/2019 - 13:50:46: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 13:50:46: [SM] Exception reported: Client 1 is not in game
+L 11/01/2019 - 13:50:46: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 13:50:46: [SM] Call stack trace:
+L 11/01/2019 - 13:50:46: [SM]   [0] GetClientTeam
+L 11/01/2019 - 13:50:46: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 14:35:06: Error log file session closed.
+L 11/01/2019 - 14:44:39: SourceMod error session started
+L 11/01/2019 - 14:44:39: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 14:44:39: [CRASH] Accelerator uploaded crash dump: Crash ID: SIZR-CNAX-4HSI
+L 11/01/2019 - 14:44:43: [UPDATER] --- BEGIN ERRORS FROM AUTOMATIC UPDATER ---
+L 11/01/2019 - 14:44:43: [UPDATER] Parse error in update manifest: Line contained too many invalid tokens
+L 11/01/2019 - 14:44:43: [UPDATER] --- END ERRORS FROM AUTOMATIC UPDATER ---
+L 11/01/2019 - 17:58:03: [SM] Exception reported: Client 1 is not in game
+L 11/01/2019 - 17:58:03: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 17:58:03: [SM] Call stack trace:
+L 11/01/2019 - 17:58:03: [SM]   [0] GetClientTeam
+L 11/01/2019 - 17:58:03: [SM]   [1] Line 79, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 20:33:46: Error log file session closed.
+L 11/01/2019 - 20:38:03: SourceMod error session started
+L 11/01/2019 - 20:38:03: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 20:38:03: [CRASH] Accelerator uploaded crash dump: Crash ID: INMB-C3QE-ENQC
+L 11/01/2019 - 20:38:04: Error log file session closed.
+L 11/01/2019 - 20:47:05: SourceMod error session started
+L 11/01/2019 - 20:47:05: Info (map "c2m1_highway") (file "errors_20191101.log")
+L 11/01/2019 - 20:47:05: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 20:47:05: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 20:47:05: [SM] Call stack trace:
+L 11/01/2019 - 20:47:05: [SM]   [0] SetEntProp
+L 11/01/2019 - 20:47:05: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 20:47:13: [SM] Exception reported: Entity -1 (-1) is invalid
+L 11/01/2019 - 20:47:13: [SM] Blaming: l4d2_melee_shenanigans.smx
+L 11/01/2019 - 20:47:13: [SM] Call stack trace:
+L 11/01/2019 - 20:47:13: [SM]   [0] SetEntProp
+L 11/01/2019 - 20:47:13: [SM]   [1] Line 142, crash/l4d2_melee_shenanigans.sp::TimedSwap
+L 11/01/2019 - 20:48:27: [SM] Exception reported: Entity 3 (3) is invalid
+L 11/01/2019 - 20:48:27: [SM] Blaming: l4d2_charger_getup_fix.smx
+L 11/01/2019 - 20:48:27: [SM] Call stack trace:
+L 11/01/2019 - 20:48:27: [SM]   [0] GetEntDataEnt2
+L 11/01/2019 - 20:48:27: [SM]   [1] Line 89, C:\Users\Trevor_2\Desktop\scripting\l4d2_charger_getup_fix.sp::OnClientDisconnect
+L 11/01/2019 - 20:48:27: Error log file session closed.

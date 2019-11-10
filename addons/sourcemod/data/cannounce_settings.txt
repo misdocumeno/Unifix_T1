@@ -1,0 +1,13 @@
+"CountryShow"
+{
+	"messages"
+	{
+		"playerjoin"		"{OLIVE}{PLAYERNAME} {DEFAULT}joined from {OLIVE}{PLAYERCITY} {DEFAULT}[{BLUE}{PLAYERCOUNTRYSHORT3}{DEFAULT}]"
+		"playerdisc"		"{OLIVE}{PLAYERNAME} {DEFAULT}left {GREEN}{DISC_REASON}"
+	}
+	"messages_admin"
+	{
+		"playerjoin"		"{OLIVE}{PLAYERNAME} {DEFAULT}joined from {OLIVE}{PLAYERCITY} {DEFAULT}[{BLUE}{PLAYERCOUNTRYSHORT3}{DEFAULT}]"
+		"playerdisc"		"{OLIVE}{PLAYERNAME} {DEFAULT}left {GREEN}{DISC_REASON}"
+	}
+}
