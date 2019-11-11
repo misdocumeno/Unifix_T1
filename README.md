@@ -43,14 +43,15 @@ chmod u+x server_start
 # Update script
 printf '%s\n' \
 '# For Unifix T1 official servers' \
-'# Uncomment 8-11 lines if you are using it for your own server' \
+'# Uncomment 9-12 lines if you are using it for your own server' \
 'killall screen' \
-'cd Unifix_T1' \
+'cd Unifix' \
 'git pull' \
 'rm -rf addons/sourcemod/configs/sourcebans/' \
+'rm addons/sourcemod/configs/databases.cfg' \
 'rm cfg/server.cfg' \
-'#rm myhost.txt' \
-'#rm mymotd.txt' \
+'#rm host.txt' \
+'#rm motd.txt' \
 '#rm addons/sourcemod/configs/admins_simple.ini' \
 '#rm addons/sourcemod/configs/core.cfg' \
 'rm -rf ../server/left4dead2/addons/sourcemod/plugins/' \
