@@ -45,7 +45,7 @@ printf '%s\n' \
 '# For Unifix T1 official servers' \
 '# Uncomment 9-12 and comment 16-19 lines if you are using it for your own server' \
 'killall screen' \
-'cd Unifix' \
+'cd Unifix_T1' \
 'git pull' \
 'rm -rf addons/sourcemod/configs/sourcebans/' \
 'rm addons/sourcemod/configs/databases.cfg' \
@@ -56,11 +56,11 @@ printf '%s\n' \
 '#rm addons/sourcemod/configs/core.cfg' \
 'rm -rf ../server/left4dead2/addons/sourcemod/plugins/' \
 'rm -rf ../server/left4dead2/cfg/sourcemod/' \
-'rm  ../server/left4dead2/cfg/t1.cfg' \
-'rm  ../server/left4dead2/addons/sourcemod/configs/admins_simple.ini' \
-'rm  ../server/left4dead2/addons/sourcemod/configs/core.cfg' \
-'rm  ../server/left4dead2/host.txt' \
-'rm  ../server/left4dead2/motd.txt' \
+'rm ../server/left4dead2/cfg/t1.cfg' \
+'rm ../server/left4dead2/addons/sourcemod/configs/admins_simple.ini' \
+'rm ../server/left4dead2/addons/sourcemod/configs/core.cfg' \
+'rm ../server/left4dead2/host.txt' \
+'rm ../server/left4dead2/motd.txt' \
 'cp -r * ../server/left4dead2/' \
 'git reset HEAD --hard' \
 > server_update
