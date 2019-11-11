@@ -1,1 +1,1 @@
-http://35.196.36.92/banners/motd_unifix.html
+http://unifix.ddns.net/banners/motd_unifix.html
