@@ -57,6 +57,7 @@ printf '%s\n' \
 'rm -rf ../server/left4dead2/addons/sourcemod/plugins/' \
 'rm -rf ../server/left4dead2/cfg/sourcemod/' \
 'rm  ../server/left4dead2/cfg/t1.cfg' \
+'rm  ../server/left4dead2/addons/sourcemod/configs/admins_simple.ini' \
 'cp -r * ../server/left4dead2/' \
 'git reset HEAD --hard' \
 > server_update
