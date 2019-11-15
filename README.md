@@ -58,6 +58,7 @@ printf '%s\n' \
 'rm -rf ../server/left4dead2/addons/sourcemod/' \
 'rm -rf ../server/left4dead2/cfg/sourcemod/' \
 'rm ../server/left4dead2/cfg/t1.cfg' \
+'rm ../server/left4dead2/cfg/server.cfg' \
 'rm ../server/left4dead2/host.txt' \
 'rm ../server/left4dead2/motd.txt' \
 'cp -r * ../server/left4dead2/' \
