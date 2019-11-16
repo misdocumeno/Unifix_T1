@@ -79,6 +79,7 @@ chmod u+x server_updateT1
 - Edit `serverconfigsT1/cfg/server.cfg` and set a proper hostname, rcon password and steam groups id
 - Edit `serverconfigsT1/addons/sourcemod/configs/databeses.cfg` and set the mysql password
 - Edit `serverconfigsT1/addons/sourcemod/configs/sourcebans/sourcebans.cfg` and set the sourcebans ServerID
+- Run the update script to copy those files into the server path
 
 ### 4) Start the Server
 - Run the server with `bash server_startT1`
