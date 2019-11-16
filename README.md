@@ -43,7 +43,7 @@ git clone https://github.com/misdocumeno/Unifix_T1
 cp -r Unifix_T1/* serverT1/left4dead2/
 
 # Screen script
-printf 'screen -S UnifixT1 ./serverT1/srcds_run -tickrate 100 +map "c10m1_caves" +sv_clockcorrection_msecs 15 -timeout 10 +ip 0.0.0.0 -port 27015 +precache_all_survivors 1' > server_startT1
+printf 'screen -S UnifixT1 ./serverT1/srcds_run -tickrate 100 +map "c10m1_caves" +sv_clockcorrection_msecs 15 -timeout 10 +ip 0.0.0.0 -port 27016 +precache_all_survivors 1' > server_startT1
 chmod u+x server_startT1
 
 # Per server config backup
