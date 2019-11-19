@@ -3,7 +3,7 @@
 #if defined(AUTOVERSION)
 #include "version.inc"
 #else
-#define PLUGIN_VERSION	"2.2.3"
+#define PLUGIN_VERSION	"2.2.5"
 #endif
 
 #if !defined(DEBUG_ALL)
@@ -12,7 +12,6 @@
 
 #include <sourcemod>
 #include <sdktools>
-#include <socket>
 #include <sdkhooks>
 #include <left4downtown>
 #include <colors>
