@@ -62,7 +62,11 @@ printf '%s\n' \
 'git pull' \
 'rm -rf ../serverT1/left4dead2/addons/sourcemod/' \
 'rm -rf ../serverT1/left4dead2/cfg/sourcemod/' \
-'rm ../serverT1/left4dead2/cfg/t1.cfg' \
+'rm ../serverT1/left4dead2/cfg/t1_plugins.cfg' \
+'rm ../serverT1/left4dead2/cfg/t1_cvars.cfg' \
+'rm ../serverT1/left4dead2/cfg/t1_settings.cfg' \
+'rm ../serverT1/left4dead2/cfg/generalfixes.cfg' \
+'rm ../serverT1/left4dead2/cfg/sharedplugins.cfg' \
 'rm ../serverT1/left4dead2/cfg/server.cfg' \
 'rm ../serverT1/left4dead2/host.txt' \
 'rm ../serverT1/left4dead2/motd.txt' \
