@@ -20,6 +20,21 @@ This repository contains all the files for all the [Unifix T1 servers](https://s
 - Run it with `bash server_pre` **(`sudo bash server_pre` if you aren't logged in as root)**
 
 ```bash
+# Libs and apps
+dpkg --add-architecture i386
+apt-get update -y && apt-get upgrade -y
+apt-get install -y libc6:i386
+apt-get install -y lib32gcc1
+apt-get install -y lib32z1
+apt-get install -y git
+```
+
+### 2) Install steam, L4D2 server and clone this repository
+- Login as the user that will start the server
+- Put the script below in a file named `server_installT1`
+- Run it with `bash server_installT1`
+
+```bash
 # Install steam and L4D2
 wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz
 tar -xvzf steamcmd_linux.tar.gz
