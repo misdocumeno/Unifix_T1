@@ -1,6 +1,13 @@
 # Unifix T1
 This repository contains all the files for all the [Unifix T1 servers](https://steamcommunity.com/groups/UnifixServers).
 
+***only adminis can unload T1 to call a vote for a match***
+
+### Configs
+- ZoneMod 1.9.5
+- SkeetMod 0.0.3
+- T1 V2
+
 ## Install Steps
 
 ### Installing Prerequisites
