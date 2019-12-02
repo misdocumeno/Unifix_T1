@@ -1,6 +1,13 @@
 # Unifix T1
 This repository contains all the files for all the [Unifix T1 servers](https://steamcommunity.com/groups/UnifixServers).
 
+***only admins can unload T1 to call a vote for a match***
+
+### Configs
+- ZoneMod 1.9.5
+- SkeetMod 0.0.3
+- T1 V2
+
 ## Install Steps
 
 ### Installing Prerequisites
@@ -11,21 +18,6 @@ This repository contains all the files for all the [Unifix T1 servers](https://s
 - Login as root or any user with sudo privileges and put the script below in a file named `server_pre`
 - You can use `nano server_pre` to do that
 - Run it with `bash server_pre` **(`sudo bash server_pre` if you aren't logged in as root)**
-
-```bash
-# Libs and apps
-dpkg --add-architecture i386
-apt-get update -y && apt-get upgrade -y
-apt-get install -y libc6:i386
-apt-get install -y lib32gcc1
-apt-get install -y lib32z1
-apt-get install -y git
-```
-
-### 2) Install steam, L4D2 server and clone this repository
-- Login as the user that will start the server
-- Put the script below in a file named `server_installT1`
-- Run it with `bash server_installT1`
 
 ```bash
 # Install steam and L4D2
@@ -51,6 +43,8 @@ chmod u+x server_startT1
 # This will be copied to the server directory when update
 mkdir -p serverconfigsT1/cfg/
 cp Unifix_T1/cfg/server.cfg serverconfigsT1/cfg/
+mkdir -p serverconfigsT1/cfg/sourcemod/
+cp Unifix_T1/cfg/sourcemod/vpn_ip.cfg serverconfigsT1/cfg/sourcemod/vpn_ip.cfg
 mkdir -p serverconfigsT1/addons/sourcemod/configs/sourcebans/
 cp Unifix_T1/addons/sourcemod/configs/sourcebans/sourcebans.cfg serverconfigsT1/addons/sourcemod/configs/sourcebans/
 cp Unifix_T1/addons/sourcemod/configs/databases.cfg serverconfigsT1/addons/sourcemod/configs/
@@ -62,11 +56,11 @@ printf '%s\n' \
 'git pull' \
 'rm -rf ../serverT1/left4dead2/addons/sourcemod/' \
 'rm -rf ../serverT1/left4dead2/cfg/sourcemod/' \
-'rm ../serverT1/left4dead2/cfg/t1_plugins.cfg' \
-'rm ../serverT1/left4dead2/cfg/t1_cvars.cfg' \
-'rm ../serverT1/left4dead2/cfg/t1_settings.cfg' \
+'rm -rf ../serverT1/left4dead2/cfg/cfgogl/' \
+'rm -rf ../serverT1/left4dead2/cfg/stripper/' \
 'rm ../serverT1/left4dead2/cfg/generalfixes.cfg' \
 'rm ../serverT1/left4dead2/cfg/sharedplugins.cfg' \
+'rm ../serverT1/left4dead2/cfg/confogl_personalize.cfg' \
 'rm ../serverT1/left4dead2/cfg/server.cfg' \
 'rm ../serverT1/left4dead2/host.txt' \
 'rm ../serverT1/left4dead2/motd.txt' \
@@ -74,7 +68,13 @@ printf '%s\n' \
 'git reset HEAD --hard' \
 'cd ..' \
 'cd serverconfigsT1' \
+'rm ../serverT1/left4dead2/cfg/server.cfg' \
+'rm ../serverT1/left4dead2/cfg/sourcemod/vpn_ip.cfg' \
+'rm ../serverT1/left4dead2/cfg/sourcemod/configs/databases.cfg' \
+'rm ../serverT1/left4dead2/cfg/sourcemod/configs/sourcebans/sourcebans.cfg' \
 'cp -r * ../serverT1/left4dead2/' \
+'rm ../server_installT1' \
+'rm ../server_pre' \
 > server_updateT1
 chmod u+x server_updateT1
 ```
