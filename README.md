@@ -4,7 +4,7 @@ This repository contains all the files for all the [Unifix T1 servers](https://s
 ***only admins can unload T1 to call a vote for a match***
 
 ### Configs
-- ZoneMod 1.9.5
+- ZoneMod 1.9.6
 - SkeetMod 0.0.3
 - T1 V2
 
